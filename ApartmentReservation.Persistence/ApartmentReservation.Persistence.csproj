@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190522141505_AddAdditionalConstraints.cs" />
+    <Compile Remove="Migrations\20190522141505_AddAdditionalConstraints.Designer.cs" />
+    <Compile Remove="Migrations\20190530160837_InitialModel.cs" />
+    <Compile Remove="Migrations\20190530160837_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20190530160946_InitialModel.cs" />
+    <Compile Remove="Migrations\20190530160946_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20190530161952_InitialModel.cs" />
+    <Compile Remove="Migrations\20190530161952_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20190530162130_InitialModel.cs" />
+    <Compile Remove="Migrations\20190530162130_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20190530162558_InitialModel.cs" />
+    <Compile Remove="Migrations\20190530162558_InitialModel.Designer.cs" />
+    <Compile Remove="Migrations\20190530163028_InitialModel.cs" />
+    <Compile Remove="Migrations\20190530163028_InitialModel.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApartmentReservation.Application\ApartmentReservation.Application.csproj" />
+    <ProjectReference Include="..\ApartmentReservation.Domain\ApartmentReservation.Domain.csproj" />
+  </ItemGroup>
+</Project>

@@ -39,8 +39,3 @@ Follow these steps to get your development environment set up:
 * MongoDB.Driver 2.11
 * React 16.8
 
-## API Doc
-
-Swagger API Doc can be found on `/swagger` or `/redoc` route.
-
-More detailed documentation (currently only in Serbian language) can be found can be found [here](doc/documentation-rs.pdf)
